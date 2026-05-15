@@ -28,13 +28,6 @@
 
 ---
 
-## ⚡ Live Demo (Terminal Animation)
-
-<p align="center">
-  <img src="./hashcat_demo.gif" width="800" />
-</p>
-
----
 
 ## 🚀 Overview
 
